@@ -1,1 +1,49 @@
-
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      width: 100%;
+      height: 100%;
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .facebook-link {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 20%;
+      z-index: 10;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <video controls playsinline>
+      <source src="copy_BEE15729-4AFB-4A02-9782-058F9DFB51F8.mov" type="video/quicktime">
+    </video>
+    <a
+      class="facebook-link"
+      href="https://www.facebook.com/share/1EZewJzmjj/?mibextid=wwXIfr"
+      target="_blank"
+      aria-label="Facebook">
+    </a>
+  </div>
+</body>
+</html>
